@@ -43,7 +43,7 @@ class Yahtzee implements ActionListener, ItemListener{
   private int [] diceVals = new int[5];
   private int[] prevDiceVals = new int[5];
   // used in JComboBox
-  private String[] diceGifs = {"dice1.gif", "dice2.gif", "dice3.gif", "dice4.gif", "dice5.gif", "dice6.gif"};
+  private String[] diceGifs = {"Images/dice1.gif", "Images/dice2.gif", "Images/dice3.gif", "Images/dice4.gif", "Images/dice5.gif", "Images/dice6.gif"};
   private String[] choices = {"1. Ones", "2. Twos", "3. Threes", "4. Fours", "5. Fives", "6. Sixes", "7. Three of a Kind", "8. Four of a Kind", "9. Full House", "10. Low Straight", "11. High Straight", "12. Yahtzee", "13. Chance", "14. Yahtzee Bonus"};
   // used to create JTable
   private String[] ops = {"Ones", "Twos", "Threes", "Fours", "Fives", "Sixes", "Upper Bonus", "Three of a Kind", "Four of a Kind", "Full House", "Low Straight", "High Straight", "Yahtzee", "Chance", "Yahtzee Bonus"};
